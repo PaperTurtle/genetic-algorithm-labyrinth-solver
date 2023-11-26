@@ -1,0 +1,31 @@
+# Ignore compiled files
+*.class
+*.o
+*.pyc
+
+# Ignore build output directories
+/build/
+/dist/
+/out/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies and package managers
+/node_modules/
+/bower_components/
+/vendor/
+
+# Ignore log files
+*.log
+
+# Ignore configuration files with sensitive information
+config.ini
+secrets.yml
